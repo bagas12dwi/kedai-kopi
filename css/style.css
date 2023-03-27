@@ -102,6 +102,11 @@ body {
   fill: currentColor;
 }
 
+.maps{
+  width: 600px;
+  height: 450px;
+}
+
 @media (max-width: 1200px) {
   .hero .content h1 {
     font-size: 2rem;
@@ -110,10 +115,19 @@ body {
     line-height: 1.2;
   }
 
+  .card{
+    margin-bottom: 16px;
+  }
+
   .img-about {
     width: 250px;
     height: 250px;
     object-fit: cover;
+  }
+
+  .maps{
+    width: 500px;
+    height: 350px;
   }
 }
 
@@ -129,6 +143,11 @@ body {
     height: 250px;
     object-fit: cover;
   }
+
+  .maps{
+    width: 400px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -142,5 +161,10 @@ body {
     width: 250px;
     height: 250px;
     object-fit: cover;
+  }
+
+  .maps{
+    width: 300px;
+    height: 150px;
   }
 }
